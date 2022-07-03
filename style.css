@@ -4,7 +4,6 @@
 }
 
 body {
-    position: relative;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     background-color: #c0ba9d;
@@ -13,13 +12,15 @@ body {
 
 header,
 footer {
-    position: relative;
     background-color: #3e5533;
     height: 51px;
 }
 
 header {
+    position: fixed;
     border-bottom:#224108 solid 10px;
+    width: 100%;
+    top: 0;
 }
 
 .nav {
@@ -37,6 +38,10 @@ footer {
     text-decoration: none;
     color: #FDF8F5;
     border-top: #224108 solid 10px;
+}
+
+h1 {
+    padding-top: 80px;
 }
 
 p {
